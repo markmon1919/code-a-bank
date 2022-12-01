@@ -1,7 +1,5 @@
 # Code a Bank
 
-*This interview coding challenge is a property of First Performance, Inc.*
-
 In this project you are tasked to complete the APIs for a bank user, its account and handling bank transactions.
 
 ## Tasks
