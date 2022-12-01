@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "wWmdLkWTvCBURb1pbuJhtQ",
+      "createdAt": "2022-03-26T19:35:57.435Z",
+      "updatedAt": "2022-03-26T19:35:57.435Z",
+      "firstName": "Mark Mon",
+      "lastName": "Monteros"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "h2kukV4aLo7qw6xPjVe5HG",
+      "createdAt": "2022-03-26T19:36:46.650Z",
+      "updatedAt": "2022-03-26T19:36:46.651Z",
+      "balance": 1000
+    }
+  ],
+  "transactions": [
+    {
+      "id": "rrA2xFH7VJjthDhmffrbvx",
+      "createdAt": "2022-03-26T19:36:46.650Z",
+      "updatedAt": "2022-03-26T19:36:46.650Z",
+      "accountId": "h2kukV4aLo7qw6xPjVe5HG",
+      "type": "deposit",
+      "amount": 1000
+    }
+  ]
+}

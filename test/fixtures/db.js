@@ -1,0 +1,81 @@
+const db = {
+  users: [
+    {
+      id: 'qNir2NSPTZSq89WzpcTyqR',
+      createdAt: '2022-02-14T17:38:13.554Z',
+      updatedAt: '2022-02-14T17:38:13.554Z',
+      firstName: 'John',
+      lastName: 'Doe',
+    },
+    {
+      id: 'wAL6XzsBPfdUTgL9U2Uxgr',
+      createdAt: '2022-02-14T17:38:13.554Z',
+      updatedAt: '2022-02-14T17:38:13.554Z',
+      firstName: 'Jane',
+      lastName: 'Doe',
+    },
+  ],
+  accounts: [
+    {
+      id: 'cydmnpQRxmHsCWJvR9Sez4',
+      createdAt: '2022-02-14T17:38:13.554Z',
+      updatedAt: '2022-02-14T17:38:13.554Z',
+      userId: 'qNir2NSPTZSq89WzpcTyqR',
+      type: 'savings',
+      balance: 65,
+    },
+    {
+      id: 'i9oAsVHH7d1pAqHCoxzrpf',
+      createdAt: '2022-02-14T17:38:13.554Z',
+      updatedAt: '2022-02-14T17:38:13.554Z',
+      userId: 'qNir2NSPTZSq89WzpcTyqR',
+      type: 'checking',
+      balance: 10,
+    },
+    {
+      id: 'kPHNKLo5amyvnJiaRjr5kk',
+      createdAt: '2022-02-14T17:38:13.554Z',
+      updatedAt: '2022-02-14T17:38:13.554Z',
+      userId: 'wAL6XzsBPfdUTgL9U2Uxgr',
+      type: 'savings',
+      balance: 25,
+    },
+  ],
+  transactions: [
+    {
+      id: '4Qw5Un2Q8PpHwwGwJNRobr',
+      createdAt: '2022-02-14T17:38:13.554Z',
+      updatedAt: '2022-02-14T17:38:13.554Z',
+      accountId: 'cydmnpQRxmHsCWJvR9Sez4',
+      type: 'deposit',
+      amount: 100,
+    },
+    {
+      id: '1XvZhkD3JGTTLCesTxWepx',
+      createdAt: '2022-02-14T17:38:13.554Z',
+      updatedAt: '2022-02-14T17:38:13.554Z',
+      accountId: 'cydmnpQRxmHsCWJvR9Sez4',
+      type: 'withrawal',
+      amount: 10,
+    },
+    {
+      id: 'cVXaEp9McXq2v5josKjy88',
+      createdAt: '2022-02-14T17:38:13.554Z',
+      updatedAt: '2022-02-14T17:38:13.554Z',
+      accountId: 'i9oAsVHH7d1pAqHCoxzrpf',
+      type: 'deposit',
+      amount: 10,
+    },
+    {
+      id: 'wxmtdkqGkSsuFezS7yJTQi',
+      createdAt: '2022-02-14T17:38:13.554Z',
+      updatedAt: '2022-02-14T17:38:13.554Z',
+      accountId: 'cydmnpQRxmHsCWJvR9Sez4',
+      destAccountId: 'kPHNKLo5amyvnJiaRjr5kk',
+      type: 'transfer',
+      amount: 25,
+    },
+  ],
+};
+
+export default db;
